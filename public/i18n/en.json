@@ -19,6 +19,7 @@
     "path": "IT Path",
     "cities": "Towns",
     "teachers": "For teachers",
+    "tutor": "AI tutor",
     "join": "Join",
     "me": "My profile",
     "tabOpportunities": "Map"
@@ -288,6 +289,84 @@
     "download": "Download",
     "downloaded": "In the real platform, “{title}” would download now.",
     "privacy": "Demo data. In the real platform students choose what their teacher can see."
+  },
+  "tutor": {
+    "eyebrow": "Free · open source · works in Polish",
+    "title": "A tutor that asks, not tells.",
+    "lead": "Download a Socratic study partner for maths, biology and podstawy przedsiębiorczości. It won't hand you answers. It asks the right questions until you get there yourself, at any hour, even when your teacher can't.",
+    "download": "Download the tutor skill",
+    "downloadNote": "ZIP · works in Claude and other AI apps that support skills",
+    "heroBubbles": [
+      { "from": "student", "text": "just tell me the answer 😩" },
+      { "from": "tutor", "text": "Deal: you say the first step, I'll tell you if you're on track 👀" },
+      { "from": "student", "text": "ok… x = 2?" },
+      { "from": "tutor", "text": "Check it: plug 2 back in. What do you get?" }
+    ],
+    "github": "See it on GitHub",
+    "demoEyebrow": "See it in action",
+    "demoTitle": "Same question. A different way of answering.",
+    "demoLead": "Sample conversations. Notice that the tutor never gives the answer away: the student finds it.",
+    "subjectsLabel": "Subject",
+    "student": "Student",
+    "tutorName": "Tutor",
+    "replay": "Play again",
+    "moves": {
+      "activate": "Asks what you already know",
+      "focus": "Points your attention, doesn't explain",
+      "smaller": "Breaks it into a smaller step",
+      "predict": "Lets you predict first",
+      "invite": "Invites you in, doesn't decide for you",
+      "teachback": "You explain it back"
+    },
+    "principlesTitle": "How it's built",
+    "principles": [
+      { "title": "Invites, doesn't instruct", "text": "It talks like a curious study partner, not an authority. “Let's figure it out together”, never “this is easy”." },
+      { "title": "Co-creates with you", "text": "Explanations start from what you already know, in your own words and examples." },
+      { "title": "One hint at a time", "text": "A five-step hint ladder. It only climbs when you're really stuck after trying." },
+      { "title": "In your teacher's corner", "text": "It never replaces or criticises your teacher. It's one more person helping you, at 11 pm before the test." }
+    ],
+    "caseEyebrow": "Real case · podstawy przedsiębiorczości",
+    "caseTitle": "Your first summer job",
+    "caseLead": "Ola, 17, works at a café for the summer: 120 hours × 25 zł on an umowa zlecenie. Her goal is a laptop for 2 400 zł. The tutor walks you through her decisions, and you can swap in your own town, job and goal.",
+    "caseSteps": [
+      "How much will she earn, gross and net? What gets deducted, and what doesn't for students under 26?",
+      "Umowa zlecenie or umowa o pracę: what changes?",
+      "Build her budget: needs, wants, savings.",
+      "Pick an account: does the higher interest rate really win?",
+      "Spot the trap: an “instant 0% loan” ad.",
+      "Explain it to a friend: the teach-back."
+    ],
+    "caseCta": "Say “Let's do the summer job case” to the tutor",
+    "parentsEyebrow": "For parents",
+    "parentsTitle": "Built so parents can say yes.",
+    "parentsLead": "We designed the tutor with students' parents in mind too. Here's what they usually ask.",
+    "parentsFaq": [
+      { "q": "Isn't this just a cheating tool?", "a": "It's built to do the opposite. It won't give answers or write graded work. It asks questions and makes the student explain the topic back." },
+      { "q": "What does it know about my child?", "a": "The skill itself is a text file and collects nothing. It tells the AI not to ask for surname, address, school or photos of documents." },
+      { "q": "Can I see what they're learning?", "a": "At the end, the tutor offers a short summary. The student decides whether to share it with a parent or teacher. It never contains grades." },
+      { "q": "What if my child is stressed?", "a": "The tutor pauses studying, encourages talking to a trusted adult and mentions the free helpline for young people: 116 111." }
+    ],
+    "summaryTitle": "Example summary the student can share",
+    "summaryLines": [
+      "📘 What we worked on: percentages and discounts",
+      "✅ What you can do now: calculate a discount after a discount, and explain why 20% + 20% isn't 40%",
+      "🔁 Worth practising: percentage increases (prices, salaries)",
+      "❓ Question for your teacher: how does this work with VAT?"
+    ],
+    "ageNote": "Age: many AI apps, including Claude's consumer apps, require users to be 18+. Younger students should use the tutor at school, through a tool the school approves, or together with a parent.",
+    "parentsLink": "Read the one-page guide for parents (EN / PL)",
+    "installTitle": "Get it in 3 steps",
+    "install": [
+      { "title": "Download", "text": "Get the ZIP file with the tutor skill." },
+      { "title": "Add it to your AI app", "text": "In Claude: Settings → Capabilities → Skills → Upload skill. In Claude Code: copy the folder to ~/.claude/skills." },
+      { "title": "Start learning", "text": "Say what you're studying, e.g. “Pomóż mi zrozumieć mitozę”." }
+    ],
+    "noSkills": "Your AI app doesn't support skills? Copy the short version of the tutor prompt instead.",
+    "noSkillsLink": "Open the portable prompt",
+    "homeEyebrow": "New · free download",
+    "homeTitle": "Your pocket tutor that never gives the answer away.",
+    "homeText": "A Socratic AI study partner for maths, biology and personal finance. It asks, you think, you get it.",
+    "homeCta": "Meet the AI tutor"
   },
   "notFound": {
     "title": "This page doesn't exist.",

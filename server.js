@@ -21,6 +21,7 @@ const CONTENT_TYPES = {
   '.jpg': 'image/jpeg',
   '.webp': 'image/webp',
   '.ico': 'image/x-icon',
+  '.zip': 'application/zip',
 };
 
 const SECURITY_HEADERS = {

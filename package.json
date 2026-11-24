@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
+    "build:skill": "node -e \"require('fs').mkdirSync('public/downloads',{recursive:true})\" && cd skills && tar -a -cf ../public/downloads/socratic-tutor.zip socratic-tutor",
     "test": "node --test",
     "coverage": "node --test --experimental-test-coverage"
   },

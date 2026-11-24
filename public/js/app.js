@@ -14,6 +14,7 @@ import * as path from './pages/path.js';
 import * as module from './pages/module.js';
 import * as cities from './pages/cities.js';
 import * as teachers from './pages/teachers.js';
+import * as tutor from './pages/tutor.js';
 import * as notFound from './pages/not-found.js';
 
 const ROUTES = [
@@ -26,6 +27,7 @@ const ROUTES = [
   { pattern: 'path', section: 'path', page: path },
   { pattern: 'path/:track', section: 'path', page: path },
   { pattern: 'path/:track/:moduleId', section: 'path', page: module },
+  { pattern: 'tutor', section: 'tutor', page: tutor },
   { pattern: 'cities', section: 'cities', page: cities },
   { pattern: 'teachers', section: 'teachers', page: teachers },
 ];

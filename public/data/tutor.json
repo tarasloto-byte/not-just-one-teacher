@@ -1,0 +1,53 @@
+{
+  "zipPath": "downloads/socratic-tutor.zip",
+  "repoUrl": "https://github.com/tarasloto-byte/not-just-one-teacher/tree/main/skills",
+  "promptUrl": "https://github.com/tarasloto-byte/not-just-one-teacher/blob/main/skills/socratic-tutor/PROMPT.md",
+  "parentsUrl": "https://github.com/tarasloto-byte/not-just-one-teacher/blob/main/skills/FOR-PARENTS.md",
+  "dialogues": [
+    {
+      "id": "math",
+      "subject": "Maths",
+      "topic": "Percentages: is two times 20% off the same as 40% off?",
+      "turns": [
+        { "from": "student", "text": "A jacket is 200 zł, then 20% off, then another 20% off. So 40% off in total, right?" },
+        { "from": "tutor", "move": "activate", "text": "Let's test it together. What's 20% of 200 zł?" },
+        { "from": "student", "text": "40 zł, so it's 160" },
+        { "from": "tutor", "move": "focus", "text": "Nice. Now the second 20%: 20% of what price?" },
+        { "from": "student", "text": "of 160? that's 32… so 128 zł" },
+        { "from": "tutor", "move": "smaller", "text": "So from 200 to 128: how much off is that in złoty? And in %?" },
+        { "from": "student", "text": "72 zł… that's 36%! not 40" },
+        { "from": "tutor", "move": "teachback", "text": "You just caught a classic trap. Explain to me, like to a friend, why it isn't 40%." }
+      ]
+    },
+    {
+      "id": "biology",
+      "subject": "Biology",
+      "topic": "Where does a tree get its mass from?",
+      "turns": [
+        { "from": "student", "text": "where does a tree get all its mass from? the soil?" },
+        { "from": "tutor", "move": "activate", "text": "Great question, scientists argued about it for centuries. What do you think a tree takes in?" },
+        { "from": "student", "text": "water, stuff from the soil, sunlight" },
+        { "from": "tutor", "move": "predict", "text": "Picture a 100-year-old oak that weighs tonnes. If that mass came from the soil, what would we see around it?" },
+        { "from": "student", "text": "a giant hole?? but there isn't one" },
+        { "from": "tutor", "move": "smaller", "text": "Right! So the carbon in wood comes from somewhere else. What does a plant take in during photosynthesis?" },
+        { "from": "student", "text": "CO2… from the AIR?!" },
+        { "from": "tutor", "move": "teachback", "text": "Yes, and many adults get this wrong. Can you say in one sentence how air becomes wood?" }
+      ]
+    },
+    {
+      "id": "finance",
+      "subject": "Entrepreneurship",
+      "topic": "Real case: your first summer job and choosing an account",
+      "turns": [
+        { "from": "student", "text": "I'll earn 3000 zł this summer. which bank account should I choose?" },
+        { "from": "tutor", "move": "invite", "text": "Exciting! I won't choose for you, but let's compare like pros. What are you saving for?" },
+        { "from": "student", "text": "a laptop, about 2400 zł" },
+        { "from": "tutor", "move": "focus", "text": "Account A: no fee, 2% a year. Account B: 5 zł a month, 4% a year. Which looks better at first glance?" },
+        { "from": "student", "text": "B obviously, double the interest" },
+        { "from": "tutor", "move": "smaller", "text": "Let's check. Saving 2 000 zł for a year: how much interest does each earn, and what does B cost in fees?" },
+        { "from": "student", "text": "A 40 zł, B 80 zł but 60 in fees… so B is only +20!" },
+        { "from": "tutor", "move": "teachback", "text": "Exactly: the higher rate wasn't the better deal. What's one question you'll always ask a bank now?" }
+      ]
+    }
+  ]
+}

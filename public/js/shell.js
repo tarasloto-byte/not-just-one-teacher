@@ -10,6 +10,7 @@ const NAV_ITEMS = Object.freeze([
   { id: 'stories', href: '#/stories', icon: 'film', tab: true },
   { id: 'opportunities', href: '#/opportunities', icon: 'pin', tab: true, tabLabel: 'nav.tabOpportunities' },
   { id: 'path', href: '#/path', icon: 'route', tab: true },
+  { id: 'tutor', href: '#/tutor', icon: 'chat' },
   { id: 'cities', href: '#/cities', icon: 'trophy' },
   { id: 'teachers', href: '#/teachers', icon: 'book' },
 ]);

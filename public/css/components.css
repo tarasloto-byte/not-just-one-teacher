@@ -74,13 +74,13 @@
 .mobile-nav a[aria-current='page'] { background: var(--lime); }
 
 @media (min-width: 600px) { .demo-badge { display: inline-block; } }
-@media (min-width: 900px) {
+@media (min-width: 1080px) {
   .main-nav { display: flex; gap: 0.15rem; }
   .menu-btn, .mobile-nav { display: none !important; }
   .site-header .header-cta { display: inline-flex; }
   .demo-badge { display: none; }
 }
-@media (min-width: 1240px) { .demo-badge { display: inline-block; } }
+@media (min-width: 1360px) { .demo-badge { display: inline-block; } }
 
 /* ---------- Bottom tab bar (mobile) ---------- */
 .tabbar {
@@ -106,7 +106,7 @@
 }
 .tabbar svg { width: 22px; height: 22px; }
 .tabbar a[aria-current='page'] { background: var(--lime); color: var(--ink); }
-@media (min-width: 900px) { .tabbar { display: none; } }
+@media (min-width: 1080px) { .tabbar { display: none; } }
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--ink); color: #d8d3e0; padding-block: 2.5rem; margin-top: 2rem; font-size: var(--text-sm); }
@@ -396,7 +396,7 @@
   animation: toast-in 0.35s var(--ease);
 }
 @keyframes toast-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
-@media (min-width: 900px) { .toast-region { bottom: 1.5rem; } }
+@media (min-width: 1080px) { .toast-region { bottom: 1.5rem; } }
 
 /* ---------- Page header ---------- */
 .page-head { margin-bottom: clamp(1.5rem, 1rem + 2vw, 2.5rem); }

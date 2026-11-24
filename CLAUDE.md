@@ -19,4 +19,12 @@ A clickable presentation prototype, not a product. No backend, no real registrat
 - Pure logic goes in `public/js/lib/` and gets unit tests (`npm test`).
 
 ## Pages (hash routes)
-`#/` home · `#/join` QR landing form · `#/me` profile with 5 steps · `#/stories`, `#/stories/:id` · `#/opportunities` · `#/path` (quiz), `#/path/:track`, `#/path/:track/:module` · `#/cities` town leaderboard · `#/teachers` teacher dashboard.
+`#/` home · `#/join` QR landing form · `#/me` profile with 5 steps · `#/stories`, `#/stories/:id` · `#/opportunities` · `#/path` (quiz), `#/path/:track`, `#/path/:track/:module` · `#/tutor` Socratic AI tutor skill · `#/cities` town leaderboard · `#/teachers` teacher dashboard.
+
+## Socratic tutor skill (`skills/socratic-tutor/`)
+Added after feedback that the project was too general. A downloadable skill students install in their AI app.
+- Tutor stance: invite rather than instruct, co-create with the student, one question/hint at a time (hint ladder), teach-back at the end. It never gives away homework answers.
+- Persona lens: the student *and* their parents (anti-cheating, privacy, optional shareable summary, helpline 116 111). See `skills/FOR-PARENTS.md`.
+- Subjects: maths, biology, podstawy przedsiębiorczości with the real case "Your first summer job".
+- Age caveat: many AI consumer apps require users to be 18+, so under-18s use the tutor at school or with a parent.
+- `tests/skill.test.js` checks the frontmatter and the referenced files.

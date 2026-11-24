@@ -112,6 +112,25 @@ function howView() {
   </section>`;
 }
 
+function tutorTeaser() {
+  return `
+  <section class="section section--tight">
+    <div class="container">
+      <a class="tutor-teaser" href="#/tutor">
+        <div>
+          <p class="eyebrow">${icon('spark', 'icon icon--sm')} ${esc(t('tutor.homeEyebrow'))}</p>
+          <h2 class="tutor-teaser__title">${esc(t('tutor.homeTitle'))}</h2>
+          <p class="muted">${esc(t('tutor.homeText'))}</p>
+          <span class="btn btn--primary">${esc(t('tutor.homeCta'))}${icon('arrowRight')}</span>
+        </div>
+        <div class="tutor-teaser__chat" aria-hidden="true">
+          ${tData('tutor.heroBubbles').slice(0, 2).map((b) => `<span class="bubble bubble--${b.from === 'tutor' ? 'tutor' : 'student'}">${esc(b.text)}</span>`).join('')}
+        </div>
+      </a>
+    </div>
+  </section>`;
+}
+
 function networkView() {
   return `
   <section class="section">
@@ -133,7 +152,7 @@ function initialRegion(data) {
 }
 
 export function view(data) {
-  return [heroView(data.stories), statsView(data.stats), workshopView(data, initialRegion(data)), howView(), networkView()].join('');
+  return [heroView(data.stories), statsView(data.stats), workshopView(data, initialRegion(data)), howView(), tutorTeaser(), networkView()].join('');
 }
 
 export function mount(root, data) {

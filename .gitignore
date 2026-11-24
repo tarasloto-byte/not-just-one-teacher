@@ -1,4 +1,6 @@
 node_modules/
+# built by the deploy workflow (and `npm run build:skill` locally)
+public/downloads/
 .claude/
 *.log
 .DS_Store

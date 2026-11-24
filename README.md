@@ -38,6 +38,7 @@ Then open **http://localhost:5173** in your browser. Stop the server with `Ctrl+
 | 4 | Opportunities `#/opportunities` | Type **Sanok** → the region is detected automatically. Toggle **For girls** / **Free**, then press **Remind me about the deadline**. |
 | 5 | IT Path `#/path` | 8-question quiz → your route (5 modules × 2 h = 10 h). Open a module, tick the task, answer the test, complete it. |
 | 6 | Towns `#/cities` | Towns compete, not students. Points are averaged per student, so small towns can win. |
+| 6b | AI tutor `#/tutor` | A downloadable Socratic tutor skill. Switch the sample dialogue between Maths, Biology and Entrepreneurship, then show the real "first summer job" case, the parents' section and the download. |
 | 7 | Teachers `#/teachers` | Class dashboard and lesson materials: the teacher is a coach, not the only source. |
 
 ## Where things live
@@ -51,9 +52,15 @@ public/
   js/app.js             router
   js/pages/*.js         one file per page
   js/lib/*.js           pure logic (filters, quiz scoring, progress, leaderboard, validation)
+skills/socratic-tutor/  the downloadable Socratic tutor skill (SKILL.md + subject guides)
+skills/FOR-PARENTS.md   one-page guide for parents (EN + PL)
 server.js               zero-dependency static server (serves ./public only)
 tests/                  unit tests: npm test
 ```
+
+## The tutor skill
+
+The deploy workflow zips `skills/socratic-tutor/` into `downloads/socratic-tutor.zip` on the live site. To test the download locally, run `npm run build:skill` once before `npm start`. Install instructions for students are in [skills/README.md](skills/README.md).
 
 ## Translating to Polish
 

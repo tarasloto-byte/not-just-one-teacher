@@ -16,7 +16,7 @@ body {
   padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1080px) {
   body { padding-bottom: 0; }
 }
 

@@ -34,6 +34,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Package the tutor skill as a downloadable zip
+        run: |
+          mkdir -p public/downloads
+          cd skills && zip -r ../public/downloads/socratic-tutor.zip socratic-tutor
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
