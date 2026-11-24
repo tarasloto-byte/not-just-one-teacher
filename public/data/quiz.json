@@ -1,0 +1,74 @@
+[
+  {
+    "q": "A free Saturday. What sounds most fun?",
+    "options": [
+      { "text": "Building a small app or a game mod", "track": "programming" },
+      { "text": "Redesigning the poster for a school event", "track": "design" },
+      { "text": "Working out who really is the best player in your league", "track": "data" },
+      { "text": "Testing what an AI chatbot can and can't do", "track": "ai" }
+    ]
+  },
+  {
+    "q": "Group project. Which part do you grab?",
+    "options": [
+      { "text": "Making the thing actually work", "track": "programming" },
+      { "text": "Making it look good and easy to use", "track": "design" },
+      { "text": "Finding the facts and numbers", "track": "data" },
+      { "text": "Automating the boring parts", "track": "ai" }
+    ]
+  },
+  {
+    "q": "Pick a superpower.",
+    "options": [
+      { "text": "Fix any broken device or app", "track": "programming" },
+      { "text": "Make anything look beautiful", "track": "design" },
+      { "text": "Spot the pattern nobody else sees", "track": "data" },
+      { "text": "Teach a machine a new trick", "track": "ai" }
+    ]
+  },
+  {
+    "q": "On your phone, you most often…",
+    "options": [
+      { "text": "Try new apps and tweak every setting", "track": "programming" },
+      { "text": "Edit photos and videos", "track": "design" },
+      { "text": "Check stats: steps, screen time, scores", "track": "data" },
+      { "text": "Ask AI tools for help or ideas", "track": "ai" }
+    ]
+  },
+  {
+    "q": "A local problem you'd love to solve:",
+    "options": [
+      { "text": "An app with the real bus timetable", "track": "programming" },
+      { "text": "A friendlier website for the town hall", "track": "design" },
+      { "text": "A map of where the air is most polluted", "track": "data" },
+      { "text": "A helper that answers residents' questions", "track": "ai" }
+    ]
+  },
+  {
+    "q": "What annoys you most?",
+    "options": [
+      { "text": "Apps that crash", "track": "programming" },
+      { "text": "Ugly, confusing websites", "track": "design" },
+      { "text": "Opinions without evidence", "track": "data" },
+      { "text": "Doing the same task 100 times by hand", "track": "ai" }
+    ]
+  },
+  {
+    "q": "Which school moment do you secretly enjoy?",
+    "options": [
+      { "text": "When we finally get to code in ICT", "track": "programming" },
+      { "text": "Art class or making presentations", "track": "design" },
+      { "text": "Statistics problems in maths", "track": "data" },
+      { "text": "Debates about the future and technology", "track": "ai" }
+    ]
+  },
+  {
+    "q": "Your dream first project:",
+    "options": [
+      { "text": "A game your friends actually play", "track": "programming" },
+      { "text": "An app people call a joy to use", "track": "design" },
+      { "text": "A chart that changes someone's decision", "track": "data" },
+      { "text": "A model that recognises plants from photos", "track": "ai" }
+    ]
+  }
+]

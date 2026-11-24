@@ -1,0 +1,18 @@
+[
+  { "id": "dolnoslaskie", "name": "Dolnośląskie" },
+  { "id": "kujawsko-pomorskie", "name": "Kujawsko-Pomorskie" },
+  { "id": "lubelskie", "name": "Lubelskie" },
+  { "id": "lubuskie", "name": "Lubuskie" },
+  { "id": "lodzkie", "name": "Łódzkie" },
+  { "id": "malopolskie", "name": "Małopolskie" },
+  { "id": "mazowieckie", "name": "Mazowieckie" },
+  { "id": "opolskie", "name": "Opolskie" },
+  { "id": "podkarpackie", "name": "Podkarpackie" },
+  { "id": "podlaskie", "name": "Podlaskie" },
+  { "id": "pomorskie", "name": "Pomorskie" },
+  { "id": "slaskie", "name": "Śląskie" },
+  { "id": "swietokrzyskie", "name": "Świętokrzyskie" },
+  { "id": "warminsko-mazurskie", "name": "Warmińsko-Mazurskie" },
+  { "id": "wielkopolskie", "name": "Wielkopolskie" },
+  { "id": "zachodniopomorskie", "name": "Zachodniopomorskie" }
+]

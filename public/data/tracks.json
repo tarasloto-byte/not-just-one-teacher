@@ -1,0 +1,46 @@
+[
+  {
+    "id": "programming",
+    "tagline": "Build things that work: apps, games, tools for your town.",
+    "modules": [
+      { "id": "m1", "title": "Your first program", "summary": "Variables, text and numbers — and a program that talks back.", "task": "Write a program that asks for your name and replies with a greeting and the number of letters in it.", "test": { "q": "What does print() do in Python?", "options": ["Saves a file", "Shows text on the screen", "Sends a document to the printer"], "answer": 1 } },
+      { "id": "m2", "title": "Decisions and loops", "summary": "if, else and for — the building blocks of every game.", "task": "Make a number-guessing game: the computer picks 1–100, you get hints “higher” or “lower”.", "test": { "q": "Which keyword repeats a block of code?", "options": ["for", "if", "print"], "answer": 0 } },
+      { "id": "m3", "title": "Functions", "summary": "Pack code into reusable pieces with a name.", "task": "Write a function that converts złoty to euro and use it for three prices.", "test": { "q": "Why do we write functions?", "options": ["To make code slower", "To delete variables", "To reuse code without copying it"], "answer": 2 } },
+      { "id": "m4", "title": "Data from the internet", "summary": "Read JSON and show live information.", "task": "Load the sample weather file for your town and print tomorrow's temperature.", "test": { "q": "What is JSON?", "options": ["A text format for data", "A programming language", "A type of computer virus"], "answer": 0 } },
+      { "id": "m5", "title": "Mini-project: town bus app", "summary": "Put it all together in a tool people can use.", "task": "Build a small app that shows the next bus from your stop. Share it in the live session.", "test": { "q": "What is the best first step in a project?", "options": ["Write everything at once", "Plan the smallest version that works", "Choose the colours"], "answer": 1 } }
+    ]
+  },
+  {
+    "id": "design",
+    "tagline": "Make technology clear, friendly and usable for everyone.",
+    "modules": [
+      { "id": "m1", "title": "Seeing like a designer", "summary": "Hierarchy, contrast and spacing — why some screens feel easy.", "task": "Take a photo of a school notice and redesign it so the key message is seen in 3 seconds.", "test": { "q": "What does visual hierarchy help with?", "options": ["Showing what to look at first", "Making files smaller", "Choosing a font licence"], "answer": 0 } },
+      { "id": "m2", "title": "Colour and type", "summary": "Pick colours and fonts with intention, not by luck.", "task": "Create a 3-colour palette and 2 fonts for your town's football club and explain the choice.", "test": { "q": "Why check colour contrast?", "options": ["So it looks trendy", "So text is readable for everyone", "So the file prints faster"], "answer": 1 } },
+      { "id": "m3", "title": "User research in 30 minutes", "summary": "Ask good questions and listen.", "task": "Interview three friends about how they check the bus timetable. Write down 3 problems.", "test": { "q": "A good interview question is…", "options": ["“You like this, right?”", "“Is it good or bad?”", "“Tell me about the last time you…”"], "answer": 2 } },
+      { "id": "m4", "title": "Wireframes and prototypes", "summary": "From paper sketches to a clickable mock-up.", "task": "Sketch 3 screens of a timetable app on paper, then build a clickable prototype in a free tool.", "test": { "q": "What is a wireframe?", "options": ["A simple sketch of a screen's layout", "A type of cable", "The final app code"], "answer": 0 } },
+      { "id": "m5", "title": "Mini-project: a better town website", "summary": "Research, design and test a real improvement.", "task": "Redesign one page of your town's website and test it with two people. Present it in the live session.", "test": { "q": "Why test a design with real people?", "options": ["It's required by law", "To find problems you can't see yourself", "To make it look finished"], "answer": 1 } }
+    ]
+  },
+  {
+    "id": "data",
+    "tagline": "Turn numbers into answers — and answers into decisions.",
+    "modules": [
+      { "id": "m1", "title": "Thinking in data", "summary": "Questions first, numbers second.", "task": "Write 5 questions about your school that data could answer. Pick the most interesting one.", "test": { "q": "What should come first in a data project?", "options": ["A chart", "A clear question", "A big spreadsheet"], "answer": 1 } },
+      { "id": "m2", "title": "Spreadsheet superpowers", "summary": "Sorting, filters and formulas that save hours.", "task": "Collect your class's travel times to school and calculate the average and the longest trip.", "test": { "q": "What does an average tell you?", "options": ["The typical value", "The biggest value", "The number of rows"], "answer": 0 } },
+      { "id": "m3", "title": "Charts that tell the truth", "summary": "Pick the right chart and avoid misleading ones.", "task": "Make two charts from the same data: one honest, one misleading. Explain the trick.", "test": { "q": "A bar chart axis that doesn't start at zero can…", "options": ["Make differences look bigger", "Make the chart load faster", "Fix errors in the data"], "answer": 0 } },
+      { "id": "m4", "title": "Intro to SQL", "summary": "Ask questions to a database.", "task": "Use the sample town database to find the three busiest bus stops.", "test": { "q": "Which SQL word chooses columns?", "options": ["WHERE", "FROM", "SELECT"], "answer": 2 } },
+      { "id": "m5", "title": "Mini-project: air in your town", "summary": "A complete mini-analysis with open data.", "task": "Analyse a month of open air-quality data for your region and present one finding in the live session.", "test": { "q": "A good data presentation ends with…", "options": ["All the raw numbers", "A clear takeaway", "As many charts as possible"], "answer": 1 } }
+    ]
+  },
+  {
+    "id": "ai",
+    "tagline": "Understand AI, use it wisely and build your own small models.",
+    "modules": [
+      { "id": "m1", "title": "What AI really is", "summary": "No magic: patterns, data and probability.", "task": "List 5 AI tools you used this week without noticing. What data do they learn from?", "test": { "q": "Most AI systems learn from…", "options": ["Examples in data", "Magic", "Only rules written by hand"], "answer": 0 } },
+      { "id": "m2", "title": "Prompting well — and checking answers", "summary": "Get better results and spot mistakes.", "task": "Ask an AI chatbot three questions about your town's history and fact-check every answer.", "test": { "q": "What should you do with an AI answer?", "options": ["Trust it fully", "Check important facts", "Ignore it always"], "answer": 1 } },
+      { "id": "m3", "title": "How machines learn", "summary": "Training, testing and why data quality matters.", "task": "Sort 20 photos into two groups by hand, then explain which rules you used — that's what a model learns.", "test": { "q": "Why split data into training and test sets?", "options": ["To save disk space", "To make training faster", "To check the model on data it hasn't seen"], "answer": 2 } },
+      { "id": "m4", "title": "Train your first image classifier", "summary": "No-code model training in your browser.", "task": "Train a model in a free browser tool to tell apart two objects from your desk. Test it with a friend.", "test": { "q": "If your model often fails, what helps most?", "options": ["More and more varied examples", "A nicer name", "A faster internet connection"], "answer": 0 } },
+      { "id": "m5", "title": "Mini-project: a responsible AI helper", "summary": "Design an AI helper for your school — and think about fairness.", "task": "Design an FAQ helper for your school. Write 3 rules to keep it fair and safe. Present it in the live session.", "test": { "q": "Why think about bias in AI?", "options": ["It makes models larger", "Models can treat groups of people unfairly", "It's only a legal formality"], "answer": 1 } }
+    ]
+  }
+]

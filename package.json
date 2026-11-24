@@ -1,0 +1,15 @@
+{
+  "name": "not-just-one-teacher",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Clickable demo prototype: Not Just One Teacher (EIT STEM Talent 2026 student project)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  { "town": "Biłgoraj", "region": "lubelskie", "students": 64, "modules": 212, "tasks": 386, "sessions": 98 },
+  { "town": "Sanok", "region": "podkarpackie", "students": 71, "modules": 220, "tasks": 402, "sessions": 90 },
+  { "town": "Ełk", "region": "warminsko-mazurskie", "students": 58, "modules": 205, "tasks": 351, "sessions": 101 },
+  { "town": "Złotów", "region": "wielkopolskie", "students": 39, "modules": 151, "tasks": 260, "sessions": 72 },
+  { "town": "Hajnówka", "region": "podlaskie", "students": 33, "modules": 118, "tasks": 214, "sessions": 61 },
+  { "town": "Kłodzko", "region": "dolnoslaskie", "students": 66, "modules": 190, "tasks": 330, "sessions": 84 },
+  { "town": "Wąbrzeźno", "region": "kujawsko-pomorskie", "students": 28, "modules": 104, "tasks": 190, "sessions": 52 },
+  { "town": "Nowy Targ", "region": "malopolskie", "students": 74, "modules": 230, "tasks": 395, "sessions": 88 },
+  { "town": "Szczytno", "region": "warminsko-mazurskie", "students": 41, "modules": 120, "tasks": 222, "sessions": 50 },
+  { "town": "Ostrowiec Świętokrzyski", "region": "swietokrzyskie", "students": 82, "modules": 236, "tasks": 410, "sessions": 92 },
+  { "town": "Głuchołazy", "region": "opolskie", "students": 22, "modules": 84, "tasks": 150, "sessions": 41 },
+  { "town": "Bytów", "region": "pomorskie", "students": 36, "modules": 110, "tasks": 201, "sessions": 47 }
+]

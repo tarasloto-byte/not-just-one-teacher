@@ -1,0 +1,61 @@
+/* Design tokens — "soft neo-brutalism": ink outlines, hard offset shadows, one loud orange. */
+:root {
+  /* Colour */
+  --ink: #16131f;
+  --ink-2: #2b2736;
+  --ink-soft: #4a4458;
+  --paper: #f8f5ef;
+  --paper-2: #f1ece3;
+  --surface: #ffffff;
+  --muted: #625d6d;
+  --line: #e4ded3;
+
+  --accent: #ff5a1f;          /* buttons, highlights (ink text on top) */
+  --accent-text: #c2370b;     /* accent used as text on paper — AA contrast */
+  --accent-soft: #ffe2d4;
+  --violet: #5b3df0;
+  --violet-soft: #e9e4ff;
+  --lime: #d4f54a;
+  --lime-soft: #f1fbcc;
+  --sky: #9fd8ff;
+  --danger: #b3261e;
+  --success: #1d7a46;
+
+  /* Typography */
+  --font-display: 'Unbounded', 'Arial Black', system-ui, sans-serif;
+  --font-body: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: clamp(1.06rem, 1rem + 0.3vw, 1.2rem);
+  --text-xl: clamp(1.35rem, 1.15rem + 0.9vw, 1.8rem);
+  --text-2xl: clamp(1.9rem, 1.3rem + 2.6vw, 3.1rem);
+  --text-hero: clamp(2.45rem, 1.3rem + 4.2vw, 4.5rem);
+
+  /* Shape & depth */
+  --r-sm: 10px;
+  --r-md: 18px;
+  --r-lg: 28px;
+  --r-pill: 999px;
+  --border: 2px solid var(--ink);
+  --shadow-pop: 4px 4px 0 var(--ink);
+  --shadow-pop-lg: 7px 7px 0 var(--ink);
+  --shadow-soft: 0 1px 0 rgb(22 19 31 / 0.05), 0 12px 32px -18px rgb(22 19 31 / 0.35);
+
+  /* Space & layout */
+  --space-section: clamp(2.75rem, 1.8rem + 4vw, 6rem);
+  --container: 1160px;
+  --tap: 56px;
+  --tabbar-h: 68px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 150ms;
+  --dur: 240ms;
+
+  /* Route colours */
+  --track-programming: var(--accent);
+  --track-design: var(--violet);
+  --track-data: var(--lime);
+  --track-ai: var(--sky);
+}

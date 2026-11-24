@@ -1,0 +1,11 @@
+{
+  "students": 846,
+  "towns": 37,
+  "girlsPercent": 44,
+  "schools": 52,
+  "townsSample": [
+    "Biłgoraj", "Sanok", "Ełk", "Złotów", "Hajnówka", "Kłodzko", "Wąbrzeźno",
+    "Nowy Targ", "Szczytno", "Jasło", "Koło", "Lipno", "Bytów", "Opoczno",
+    "Głuchołazy", "Przasnysz", "Międzyrzecz", "Limanowa", "Lubliniec"
+  ]
+}

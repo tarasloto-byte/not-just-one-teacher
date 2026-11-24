@@ -1,0 +1,6 @@
+[
+  { "id": "chatbot-lesson", "title": "Follow-up lesson: a chatbot without code", "minutes": 45, "format": "Lesson plan + slides", "desc": "Continues the workshop: students design the conversation flow of a school FAQ bot on paper, then test it in pairs." },
+  { "id": "warmups", "title": "Ten-minute warm-ups: logic puzzles", "minutes": 10, "format": "12 printable cards", "desc": "Short unplugged puzzles about algorithms and patterns. Good for the start of any ICT or maths lesson." },
+  { "id": "career-kit", "title": "Career talk kit: stories from small towns", "minutes": 45, "format": "Discussion guide + videos", "desc": "Uses the platform's stories. Students compare paths and map opportunities in their own region." },
+  { "id": "data-week", "title": "Project week: data about our town", "minutes": 90, "format": "Project brief + rubric", "desc": "Teams collect simple data (traffic, recycling, screen time) and present one honest chart." }
+]

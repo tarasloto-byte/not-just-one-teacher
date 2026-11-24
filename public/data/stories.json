@@ -1,0 +1,154 @@
+[
+  {
+    "id": "ola",
+    "name": "Ola Wójcik",
+    "age": 24,
+    "hometown": "Biłgoraj",
+    "region": "lubelskie",
+    "field": "data",
+    "gender": "female",
+    "role": "Data analyst at a logistics company",
+    "hue": 18,
+    "quote": "I didn't know “data analyst” was a job until I was 17.",
+    "intro": "Our ICT teacher looked after three schools at once. She still found a minute to send me one link — and that link opened everything else.",
+    "started": [
+      { "type": "course", "year": "2018", "title": "Free online spreadsheet & SQL course", "text": "Two evenings a week on my mum's laptop. For practice I analysed our town's bus timetable and found two buses that never had passengers." },
+      { "type": "hackathon", "year": "2019", "title": "Student hackathon in Lublin", "text": "Our team of four built a map of empty classrooms. We didn't win, but a mentor told me about a data scholarship." },
+      { "type": "scholarship", "year": "2020", "title": "Scholarship for women in STEM", "text": "It covered my first year of studies in Wrocław — and a laptop that didn't overheat." }
+    ],
+    "helpers": ["My ICT teacher, who sent the first link", "An online community of analysts", "A hackathon mentor from Lublin"]
+  },
+  {
+    "id": "kuba",
+    "name": "Jakub Nowicki",
+    "age": 26,
+    "hometown": "Sanok",
+    "region": "podkarpackie",
+    "field": "programming",
+    "gender": "male",
+    "role": "Backend developer at a fintech startup",
+    "hue": 210,
+    "quote": "I learned to code on a school computer during lunch breaks.",
+    "intro": "We had no computer at home, so the school lab was my place. Twenty minutes a day turned out to be enough to start.",
+    "started": [
+      { "type": "course", "year": "2015", "title": "Free JavaScript course for beginners", "text": "I saved lessons to a USB stick and read them on the bus. My first project was a calculator that could only add." },
+      { "type": "competition", "year": "2016", "title": "Regional programming contest", "text": "I came 14th out of 60. An online coach from the contest kept sending me tasks for a year." },
+      { "type": "hackathon", "year": "2018", "title": "Weekend hackathon in Rzeszów", "text": "We built a parking app. A company there offered me my first summer internship." }
+    ],
+    "helpers": ["An older cousin studying in Kraków", "An online contest coach", "The school caretaker who let me stay late"]
+  },
+  {
+    "id": "marta",
+    "name": "Marta Zielińska",
+    "age": 23,
+    "hometown": "Ełk",
+    "region": "warminsko-mazurskie",
+    "field": "design",
+    "gender": "female",
+    "role": "UX/UI designer at a software house",
+    "hue": 285,
+    "quote": "Drawing in the margins of my notebook turned out to be a skill.",
+    "intro": "I thought design meant painting. Then I discovered that someone designs every button I tap — and that I could be that person.",
+    "started": [
+      { "type": "course", "year": "2019", "title": "Online course: UI design basics", "text": "Free, in English, with subtitles. I redesigned our school's website as homework nobody asked for." },
+      { "type": "competition", "year": "2020", "title": "App redesign competition for students", "text": "My redesign of a local bus app won second place. The prize was a mentoring month with a designer." },
+      { "type": "scholarship", "year": "2021", "title": "Design summer school scholarship", "text": "Two weeks in Gdańsk, fully paid. I met my first employer there." }
+    ],
+    "helpers": ["My art teacher, who said “try it digitally”", "A designer mentor from the competition", "Friends who tested my prototypes"]
+  },
+  {
+    "id": "natalia",
+    "name": "Natalia Kaczmarek",
+    "age": 25,
+    "hometown": "Złotów",
+    "region": "wielkopolskie",
+    "field": "ai",
+    "gender": "female",
+    "role": "Machine-learning engineer",
+    "hue": 160,
+    "quote": "I was the only girl in the after-school club. Now I lead a team.",
+    "intro": "Maths was my thing, but no one around me used it for anything except exams. AI showed me where maths actually lives.",
+    "started": [
+      { "type": "course", "year": "2017", "title": "Online maths & Python for beginners", "text": "I combined the two: a tiny program that predicted my grades. It was wrong, and that made me curious." },
+      { "type": "hackathon", "year": "2019", "title": "AI hackathon in Poznań", "text": "Our model sorted recycling from photos. We won our category, and I stopped thinking “this isn't for me”." },
+      { "type": "scholarship", "year": "2021", "title": "Exchange semester scholarship", "text": "Six months abroad in a research lab. I came back knowing exactly what I wanted to do." }
+    ],
+    "helpers": ["A physics teacher who lent me books", "Girls-in-tech online group", "My hackathon teammates"]
+  },
+  {
+    "id": "bartek",
+    "name": "Bartosz Lis",
+    "age": 27,
+    "hometown": "Hajnówka",
+    "region": "podlaskie",
+    "field": "programming",
+    "gender": "male",
+    "role": "Game developer at an indie studio",
+    "hue": 40,
+    "quote": "My first game had one level and three bugs per pixel.",
+    "intro": "I went to a vocational school as an IT technician. Everyone said real game studios were for kids from big cities.",
+    "started": [
+      { "type": "course", "year": "2014", "title": "Free game-development video tutorials", "text": "I followed them line by line, then broke everything on purpose to understand it." },
+      { "type": "competition", "year": "2016", "title": "48-hour game jam in Białystok", "text": "Our game about a lost bison got the audience award. Someone from a studio played it twice." },
+      { "type": "scholarship", "year": "2017", "title": "Local foundation grant for vocational students", "text": "It paid for a better graphics card and a trip to a games conference." }
+    ],
+    "helpers": ["My vocational school teacher, who let me use the lab", "Game-jam teammates", "An online modding forum"]
+  },
+  {
+    "id": "zuzia",
+    "name": "Zuzanna Mazur",
+    "age": 24,
+    "hometown": "Kłodzko",
+    "region": "dolnoslaskie",
+    "field": "data",
+    "gender": "female",
+    "role": "Data scientist in public health",
+    "hue": 330,
+    "quote": "I wanted to be a doctor. Now I help hospitals plan with data.",
+    "intro": "I loved biology and was scared of computers. It turns out you can care about people and write code at the same time.",
+    "started": [
+      { "type": "competition", "year": "2018", "title": "Statistics competition for secondary schools", "text": "We counted how many students skip breakfast. Our poster made it to the national final." },
+      { "type": "course", "year": "2019", "title": "Online course: data analysis with Python", "text": "Hard at first. I watched each video twice and asked questions in the course forum." },
+      { "type": "hackathon", "year": "2021", "title": "Health-data hackathon in Wrocław", "text": "We predicted queues at an emergency room. A hospital still uses a version of our idea." }
+    ],
+    "helpers": ["My biology teacher", "The course forum community", "A data scientist I met at the hackathon"]
+  },
+  {
+    "id": "igor",
+    "name": "Igor Pawlak",
+    "age": 25,
+    "hometown": "Wąbrzeźno",
+    "region": "kujawsko-pomorskie",
+    "field": "ai",
+    "gender": "male",
+    "role": "AI researcher at a university lab",
+    "hue": 195,
+    "quote": "Nobody around me worked in tech. The internet did.",
+    "intro": "My parents run a small shop. Tech felt like a different planet — until I found people online who explained it patiently.",
+    "started": [
+      { "type": "course", "year": "2016", "title": "Free online intro to machine learning", "text": "I understood maybe 30% the first time. The second time, 70%." },
+      { "type": "competition", "year": "2018", "title": "National AI challenge for schools", "text": "Our team taught a robot to recognise road signs. We came third." },
+      { "type": "scholarship", "year": "2019", "title": "University scholarship for students from small towns", "text": "It meant I could study in Toruń without working nights." }
+    ],
+    "helpers": ["Online open-source community", "My ICT teacher, who registered our team", "A university student mentor"]
+  },
+  {
+    "id": "weronika",
+    "name": "Weronika Dudek",
+    "age": 22,
+    "hometown": "Nowy Targ",
+    "region": "malopolskie",
+    "field": "design",
+    "gender": "female",
+    "role": "Product designer at a travel startup",
+    "hue": 100,
+    "quote": "I started at a vocational school — graphic design technician.",
+    "intro": "People told me vocational school closes doors. For me it opened the first one: I had real clients at 17.",
+    "started": [
+      { "type": "club", "year": "2019", "title": "School media club", "text": "We made posters and videos for the town's events. My first ‘client’ was the local library." },
+      { "type": "hackathon", "year": "2021", "title": "Design hackathon in Kraków", "text": "We designed a mountain-safety app. A startup founder was on the jury." },
+      { "type": "course", "year": "2022", "title": "Online course: accessible design", "text": "I learned to design for everyone, including my grandma. Now it's my favourite topic." }
+    ],
+    "helpers": ["My vocational school teacher", "The media club team", "A startup founder from the jury"]
+  }
+]
