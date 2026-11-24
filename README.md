@@ -3,6 +3,11 @@
 A clickable demo for the EIT STEM Talent 2026 application (Introduction to Innovation Management, Kozminski University, with Samorząd Studencki ALK).
 It's a presentation prototype: there's no backend and no real sign-up. All people, stories, schools and numbers are fictional.
 
+**Live demo:** https://tarasloto-byte.github.io/not-just-one-teacher/
+QR page: https://tarasloto-byte.github.io/not-just-one-teacher/#/join
+
+Every push to `main` redeploys the site automatically (GitHub Actions → Pages, about 1 minute).
+
 ## Run it
 
 You need [Node.js](https://nodejs.org) 18 or newer. Nothing else needs installing.
