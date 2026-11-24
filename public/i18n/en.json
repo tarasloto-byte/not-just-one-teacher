@@ -45,7 +45,7 @@
     "retry": "Try again"
   },
   "footer": {
-    "text": "Student project for Introduction to Innovation Management, Kozminski University, prepared with Samorząd Studencki ALK for the EIT STEM Talent 2026 call.",
+    "text": "Student project for Introduction to Innovation Management, Kozminski University. Prepared for the EIT STEM Talent 2026 call.",
     "note": "All people, stories, schools and numbers on this site are fictional placeholders.",
     "reset": "Reset demo data",
     "resetDone": "Demo data cleared."

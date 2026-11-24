@@ -1,6 +1,6 @@
 # CLAUDE.md — demo site "Not Just One Teacher"
 
-Student project (Introduction to Innovation Management, Kozminski University) for the EIT STEM Talent 2026 grant, together with Samorząd Studencki ALK.
+Student project (Introduction to Innovation Management, Kozminski University) for the EIT STEM Talent 2026 grant.
 
 **Problem:** in small Polish towns, a student's attitude to tech often depends on one ICT teacher. If that teacher is overloaded, there's nobody else to fill the gap.
 **Solution:** live workshops in small-town schools + a web platform students open via a QR code after the workshop.

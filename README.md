@@ -1,6 +1,6 @@
 # Not Just One Teacher — demo prototype
 
-A clickable demo for the EIT STEM Talent 2026 application (Introduction to Innovation Management, Kozminski University, with Samorząd Studencki ALK).
+A clickable demo for the EIT STEM Talent 2026 application (Introduction to Innovation Management, Kozminski University).
 It's a presentation prototype: there's no backend and no real sign-up. All people, stories, schools and numbers are fictional.
 
 **Live demo:** https://tarasloto-byte.github.io/not-just-one-teacher/
